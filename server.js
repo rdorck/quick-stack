@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/quickstack');
+mongoose.connect("mongodb://admin:toor@ds043952.mongolab.com:43952/quick");
 
 var genericSchema = new mongoose.Schema({}, { strict: false });
 
